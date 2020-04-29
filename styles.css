@@ -71,7 +71,7 @@ nav li a:hover {
     color: #373d46;
 }
 .hero h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 300;
     color: #373d46;
 }
@@ -161,4 +161,12 @@ footer p {
     svg {
         width: 20%;
     }
+}
+.hero-content ul li svg {
+    width: 10%;
+    padding-right: 0.5em;
+}
+.hero-content ul li {
+    list-style: none;
+    margin-bottom: 1.2em;
 }
