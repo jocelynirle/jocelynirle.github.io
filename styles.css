@@ -4,7 +4,7 @@ body {
 }
 .content {
     grid-area: content;
-    background: url(images/Group\ 1.png);
+   /* background: url(images/Group\ 1.png);*/
 }
 .sidebar {
     grid-area: sidebar;
@@ -119,6 +119,20 @@ svg {
 footer p {
     font-size: 0.8em;
 }
+.hero-content ul li svg {
+    width: 10%;
+    padding-right: 0.5em;
+}
+.hero-content ul li {
+    list-style: none;
+    margin-bottom: 1.2em;
+}
+#aboutmepic {
+    width: 65%;
+    border-radius: 15px;
+    box-shadow: 0 10px 50px rgba(188,197,216,1);
+}
+
 @media (min-width: 1040px) {
     .container{
         grid-template-areas: 
@@ -161,12 +175,10 @@ footer p {
     svg {
         width: 20%;
     }
-}
-.hero-content ul li svg {
-    width: 10%;
-    padding-right: 0.5em;
-}
-.hero-content ul li {
-    list-style: none;
-    margin-bottom: 1.2em;
+    #aboutmepic {
+        width: 40%;
+        border-radius: 15px;
+        box-shadow: 0 10px 50px rgba(188,197,216,1);
+        padding-left: 0.25em;
+    }
 }
