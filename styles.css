@@ -127,6 +127,20 @@ footer p {
     list-style: none;
     margin-bottom: 1.2em;
 }
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 65em;
+    margin: 0 auto;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.project{
+padding: 1em;
+}
+
 #aboutmepic {
     width: 65%;
     border-radius: 15px;
@@ -134,7 +148,7 @@ footer p {
 }
 
 #questfest-thumbnail{
-    width: 30%;
+
     border-radius: 15px;
     border-style: solid;
     border-color: rgba(130, 125, 253, 1);
@@ -153,10 +167,11 @@ footer p {
 }
 
 .project img{
-    width: 100%;
     margin: 0;
     padding: 0;
+    width: 80%;
 }
+
 
 .green {
     background-color: #F5FFFB;
