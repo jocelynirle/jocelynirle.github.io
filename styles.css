@@ -28,8 +28,10 @@ body {
     "sidebar"
     "content"
     "footer";
+    /*grid-template-columns: 1fr;
+    grid-template-rows: 130px 800px 250px;*/
     grid-template-columns: 1fr;
-    grid-template-rows: 130px 800px 250px;
+    grid-template-rows: 3fr auto;
 }
 .content,
 .sidebar,
@@ -104,7 +106,7 @@ nav li a:hover {
     align-items: center;
 }
 
-footer ul {
+.footer ul {
     max-width: 640px;
     margin: 2em auto;
     padding: 0;
@@ -113,19 +115,19 @@ footer ul {
     flex-direction: row;
 }
 
-footer ul li {
+.footer ul li {
     list-style: none;
     align-self: flex-end;   
 }
 
-footer ul li a {
+.footer ul li a {
     text-decoration: none;
     color: #c1c6ce;
 }
 svg {
     width: 40%;
 }
-footer p {
+.footer p {
     font-size: 0.8em;
 }
 .hero-content ul li svg {
@@ -188,6 +190,34 @@ padding: 1em;
     background-color: #F5FFFB;
 }
 
+.me-image {
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+.action-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #8B1F63;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    margin: 1em 0;
+    transition: 0.3s;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(188,197,216,1);
+}
+
+.action-btn2:hover{
+    box-shadow: 0 10px 50px rgba(188,197,216,1);
+    background: #a02372;
+}
+
+.center {
+    text-align: center;
+}
+
 @media (min-width: 1040px) {
     .container{
         grid-template-areas: 
@@ -235,31 +265,4 @@ padding: 1em;
         box-shadow: 0 10px 50px rgba(188,197,216,1);
         padding-left: 0.25em;
     }
-}
-.me-image {
-    border-radius: 10px;
-    max-width: 250px;
-}
-
-.action-btn2{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    background: #8B1F63;
-    padding: 0.5em 2em;
-    border-radius: 40px;
-    margin: 1em 0;
-    transition: 0.3s;
-    position: relative;
-    box-shadow: 0 4px 10px rgba(188,197,216,1);
-}
-
-.action-btn2:hover{
-    box-shadow: 0 10px 50px rgba(188,197,216,1);
-    background: #a02372;
-}
-
-.center {
-    text-align: center;
 }
